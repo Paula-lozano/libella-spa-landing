@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Libella Spa, un espacio dedicado a la belleza, cuidado y bienestar. Reserva tu cita y vive una experiencia especial.">
+
+    <title>Libella Spa | Belleza y Bienestar</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+         1. HEADER
+    =================================================== -->
+    <header class="header">
+
+        <div class="logo">
+            <a href="#inicio">
+                Libella <span>Spa</span>
+            </a>
+        </div>
+
+        <!-- Botón menú para celulares -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            ☰
+        </button>
+
+        <nav class="nav" id="nav">
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#beneficios">Beneficios</a>
+
+            <a href="#servicios">Servicios</a>
+
+            <a href="#testimonios">Testimonios</a>
+
+            <a href="#faq">Preguntas</a>
+
+            <a
+                href="#contacto"
+                class="btn-header"
+                id="btn-reservar-header"
+                data-event="reservar_header">
+                Reservar cita
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==================================================
+             2. HERO
+        =================================================== -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-small">
+                    BELLEZA · CUIDADO · BIENESTAR
+                </p>
+
+                <h1>
+                    Tu momento de consentirte
+                    <span>comienza aquí</span>
+                </h1>
+
+                <p class="hero-description">
+                    En Libella Spa queremos que disfrutes de un espacio
+                    pensado para tu belleza, tranquilidad y bienestar.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#contacto"
+                        class="btn btn-primary"
+                        id="btn-reservar-hero"
+                        data-event="reservar_hero">
+                        Reserva tu cita
+                    </a>
+
+                    <a
+                        href="#servicios"
+                        class="btn btn-secondary">
+                        Conoce nuestros servicios
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             3. BENEFICIOS
+        =================================================== -->
+        <section class="section benefits" id="beneficios">
+
+            <div class="section-title">
+
+                <p>¿POR QUÉ ELEGIRNOS?</p>
+
+                <h2>
+                    Una experiencia pensada para ti
+                </h2>
+
+                <span class="line"></span>
+
+            </div>
+
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <div class="icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        Atención personalizada
+                    </h3>
+
+                    <p>
+                        Escuchamos tus necesidades para ofrecerte una
+                        experiencia de belleza acorde con tu estilo.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Personal capacitado
+                    </h3>
+
+                    <p>
+                        Nuestro equipo está preparado para brindarte
+                        una atención amable, profesional y cuidadosa.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="icon">
+                        ❀
+                    </div>
+
+                    <h3>
+                        Ambiente agradable
+                    </h3>
+
+                    <p>
+                        Disfruta de un espacio cómodo creado para que
+                        puedas relajarte mientras cuidamos de ti.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="icon">
+                        ✧
+                    </div>
+
+                    <h3>
+                        Productos de calidad
+                    </h3>
+
+                    <p>
+                        Utilizamos productos seleccionados para brindar
+                        un buen cuidado y excelentes resultados.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             4. PRIMER CTA
+        =================================================== -->
+        <section class="cta-section">
+
+            <div class="cta-content">
+
+                <p class="small-title">
+                    TU MOMENTO ES AHORA
+                </p>
+
+                <h2>
+                    ¿Lista para consentirte?
+                </h2>
+
+                <p>
+                    Reserva tu cita en Libella Spa y disfruta de
+                    una experiencia creada especialmente para ti.
+                </p>
+
+                <a
+                    href="#contacto"
+                    class="btn btn-light"
+                    id="btn-reservar-cta"
+                    data-event="reservar_cta">
+                    Reservar ahora
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             5. SERVICIOS / EXPLICACIÓN
+        =================================================== -->
+        <section class="section services" id="servicios">
+
+            <div class="section-title">
+
+                <p>NUESTROS SERVICIOS</p>
+
+                <h2>
+                    Encuentra el cuidado que necesitas
+                </h2>
+
+                <span class="line"></span>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <article class="service">
+
+                    <div class="service-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Manicure
+                    </h3>
+
+                    <p>
+                        Dale a tus manos el cuidado que merecen con
+                        acabados delicados y estilos que representan
+                        tu personalidad.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Pedicure
+                    </h3>
+
+                    <p>
+                        Disfruta de un momento de relajación mientras
+                        cuidamos y embellecemos tus pies.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Diseño de uñas
+                    </h3>
+
+                    <p>
+                        Colores, diseños y estilos personalizados para
+                        complementar tu imagen.
+                    </p>
+
+                </article>
+
+
+                <article class="service">
+
+                    <div class="service-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Asesoría de color
+                    </h3>
+
+                    <p>
+                        Descubre colores y estilos que combinan mejor
+                        contigo y resaltan tu belleza.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             6. TESTIMONIOS
+        =================================================== -->
+        <section class="section testimonials" id="testimonios">
+
+            <div class="section-title">
+
+                <p>EXPERIENCIAS LIBELLA</p>
+
+                <h2>
+                    Lo que dicen nuestras clientas
+                </h2>
+
+                <span class="line"></span>
+
+            </div>
+
+
+            <div class="testimonial-grid">
+
+                <article class="testimonial">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Me encantó la atención y el resultado de mis
+                        uñas. El lugar es muy agradable y me sentí
+                        muy cómoda.”
+                    </p>
+
+                    <h4>
+                        Laura M.
+                    </h4>
+
+                    <span>
+                        Cliente
+                    </span>
+
+                </article>
+
+
+                <article class="testimonial">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “La atención fue excelente. Me ayudaron a
+                        escoger un diseño que combinaba perfectamente
+                        con mi estilo.”
+                    </p>
+
+                    <h4>
+                        Daniela R.
+                    </h4>
+
+                    <span>
+                        Cliente
+                    </span>
+
+                </article>
+
+
+                <article class="testimonial">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Un espacio muy bonito para relajarse. Me
+                        gustó mucho el servicio y definitivamente
+                        volvería.”
+                    </p>
+
+                    <h4>
+                        Camila P.
+                    </h4>
+
+                    <span>
+                        Cliente
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             7. SEGUNDO CTA
+        =================================================== -->
+        <section class="cta-secondary">
+
+            <div>
+
+                <p>
+                    REGÁLATE UN MOMENTO PARA TI
+                </p>
+
+                <h2>
+                    Tu próxima experiencia comienza aquí.
+                </h2>
+
+            </div>
+
+            <a
+                href="#contacto"
+                class="btn btn-primary"
+                id="btn-reservar-segundo"
+                data-event="reservar_segundo_cta">
+                Quiero reservar mi cita
+            </a>
+
+        </section>
+
+
+        <!-- ==================================================
+             8. FAQ
+        =================================================== -->
+        <section class="section faq" id="faq">
+
+            <div class="section-title">
+
+                <p>PREGUNTAS FRECUENTES</p>
+
+                <h2>
+                    Resolvemos tus dudas
+                </h2>
+
+                <span class="line"></span>
+
+            </div>
+
+
+            <div class="faq-container">
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        data-event="faq_open"
+                        data-question="Necesito reservar una cita">
+
+                        ¿Necesito reservar una cita?
+
+                        <span>+</span>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Recomendamos reservar previamente para
+                            poder organizar tu atención y brindarte
+                            una mejor experiencia.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        data-event="faq_open"
+                        data-question="Que servicios ofrece Libella Spa">
+
+                        ¿Qué servicios ofrece Libella Spa?
+
+                        <span>+</span>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Contamos con servicios de manicure,
+                            pedicure, diseño de uñas y asesoría
+                            personalizada.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        data-event="faq_open"
+                        data-question="Puedo cambiar mi cita">
+
+                        ¿Puedo cambiar mi cita?
+
+                        <span>+</span>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Sí. Puedes comunicarte con nosotros con
+                            anticipación para solicitar el cambio
+                            de tu cita.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        data-event="faq_open"
+                        data-question="Que metodos de pago reciben">
+
+                        ¿Qué métodos de pago reciben?
+
+                        <span>+</span>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Puedes consultar los medios de pago
+                            disponibles al momento de realizar
+                            tu reserva.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             9. PRE-FOOTER / CONTACTO
+        =================================================== -->
+        <section class="contact-section" id="contacto">
+
+            <div class="contact-info">
+
+                <p class="small-title">
+                    RESERVA TU EXPERIENCIA
+                </p>
+
+                <h2>
+                    Queremos consentirte
+                </h2>
+
+                <p>
+                    Déjanos tus datos y nos pondremos en contacto
+                    contigo para ayudarte a reservar tu próxima cita.
+                </p>
+
+
+                <div class="contact-detail">
+
+                    <strong>
+                        Horario
+                    </strong>
+
+                    <span>
+                        Lunes a sábado
+                    </span>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <strong>
+                        Libella Spa
+                    </strong>
+
+                    <span>
+                        Belleza y bienestar
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!--
+                Inicialmente utilizamos este formulario.
+                Posteriormente será conectado con HubSpot.
+            -->
+
+            <div class="form-container">
+
+                <form id="contact-form">
+
+                    <div class="form-group">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Escribe tu nombre"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="correo">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="ejemplo@correo.com"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="telefono">
+                            Teléfono
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefono"
+                            name="telefono"
+                            placeholder="Tu número de contacto"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="servicio">
+                            Servicio de interés
+                        </label>
+
+                        <select
+                            id="servicio"
+                            name="servicio"
+                            required>
+
+                            <option value="">
+                                Selecciona un servicio
+                            </option>
+
+                            <option value="manicure">
+                                Manicure
+                            </option>
+
+                            <option value="pedicure">
+                                Pedicure
+                            </option>
+
+                            <option value="diseno-unas">
+                                Diseño de uñas
+                            </option>
+
+                            <option value="asesoria-color">
+                                Asesoría de color
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary form-button"
+                        id="btn-enviar-formulario">
+
+                        Quiero más información
+
+                    </button>
+
+
+                    <p
+                        class="form-message"
+                        id="form-message">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================================
+         10. FOOTER
+    =================================================== -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <div class="logo footer-logo">
+                    Libella <span>Spa</span>
+                </div>
+
+                <p>
+                    Un espacio creado para tu belleza,
+                    cuidado y bienestar.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Navegación
+                </h4>
+
+                <a href="#inicio">
+                    Inicio
+                </a>
+
+                <a href="#servicios">
+                    Servicios
+                </a>
+
+                <a href="#testimonios">
+                    Testimonios
+                </a>
+
+                <a href="#faq">
+                    Preguntas frecuentes
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Síguenos
+                </h4>
+
+                <!--
+                    Más adelante reemplazaremos # por las
+                    redes sociales correspondientes.
+                -->
+
+                <a
+                    href="#"
+                    class="social-link"
+                    data-social="instagram">
+                    Instagram
+                </a>
+
+                <a
+                    href="#"
+                    class="social-link"
+                    data-social="facebook">
+                    Facebook
+                </a>
+
+                <a
+                    href="#"
+                    class="social-link"
+                    data-social="tiktok">
+                    TikTok
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span> Libella Spa.
+                Todos los derechos reservados.
+            </p>
+
+            <p>
+                Proyecto académico
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Botón para volver arriba -->
+
+    <button
+        id="back-to-top"
+        class="back-to-top"
+        aria-label="Volver arriba">
+        ↑
+    </button>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
